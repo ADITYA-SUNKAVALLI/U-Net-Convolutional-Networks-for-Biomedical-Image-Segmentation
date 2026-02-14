@@ -64,10 +64,52 @@ You can download trained weights from:
 
 ## ⚙️ Installation
 
-### 1. Clone repository
-```bash
-git clone <your_repo_link>
-cd <repo_name>
+1️⃣ Clone the repository
+
+git clone https://github.com/ADITYA-SUNKAVALLI/U-Net-Convolutional-Networks-for-Biomedical-Image-Segmentation.git
+cd U-Net-Convolutional-Networks-for-Biomedical-Image-Segmentation
+
+2️⃣ Create virtual environment
+
+Windows
+python -m venv venv
+venv\Scripts\activate
+
+Linux / Mac
+python -m venv venv
+source venv/bin/activate
+
+3️⃣ Install dependencies
+
+If requirements.txt is available:
+pip install -r requirements.txt
+
+If not, install the main libraries manually:
+
+pip install torch torchvision numpy matplotlib opencv-python tqdm
+
+▶️ Training
+
+Example:
+
+python train.py
+
+
+Inference / Prediction
+python predict.py
+
+🧩 Tech Stack
+
+Python
+
+PyTorch
+
+OpenCV
+
+NumPy
+
+Matplotlib
+
 
 
 
