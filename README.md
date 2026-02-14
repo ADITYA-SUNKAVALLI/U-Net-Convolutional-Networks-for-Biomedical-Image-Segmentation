@@ -50,16 +50,25 @@ masks/
 
 ### Download
 Dataset folder:  
-<DATASET_LINK>
+<https://drive.google.com/drive/folders/1nczFqDpCEHPVwvEwVDEcMp4DJa1Oh5XO?usp=drive_link>
 
 ---
 
 ## 💾 Pretrained Model Weights
 You can download trained weights from:
 
-<MODEL_LINK>
+<https://drive.google.com/file/d/1xPPObKf9ogjKL4tjux7MUrIBtDU7xHca/view?usp=drive_link>
 
-Place the file inside:
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone repository
+```bash
+git clone <your_repo_link>
+cd <repo_name>
+
 
 
 
